@@ -1,16 +1,10 @@
-/**
- * A standalone, pure Typescript implementation of the Mersenne Twister pseudo random number generator compatible with Deno. 
- *
- * @module MersenneTwister
- * @author Raphael Pigulla <pigulla@four66.com>
- * @license See the attached LICENSE file.
- * @version 0.2.3
+/*
+A standalone, pure Typescript implementation of the Mersenne Twister pseudo random number generator compatible with Deno. MIT license
 
- * Most comments were stripped from the source. If needed you can still find them in the original C code:
- * http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/CODES/mt19937ar.c
- *
- * The original port to JavaScript, on which this file is based, was done by Sean McCullough. It can be found at:
- * https://gist.github.com/banksean/300494
+Based on:
+https://github.com/pigulla/mersennetwister
+https://gist.github.com/banksean/300494
+http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/MT2002/CODES/mt19937ar.c
  */
 
 const MAX_INT = 4294967296.0,

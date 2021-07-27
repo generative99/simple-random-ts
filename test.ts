@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.103.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.103.0/testing/asserts.ts"
 import MersenneTwister from "./random.ts"
 
 Deno.test({
@@ -58,6 +58,6 @@ Deno.test({
             }
         }
 
-        assertEquals(passed, true);
+        assertEquals(passed, true)
     },
-});
+})
